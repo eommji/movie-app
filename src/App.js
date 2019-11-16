@@ -34,14 +34,15 @@ class App extends Component {
           </div>
         ) : (
           <div className="movies">
-            {movies.map(e => (
+            {movies.map(movie => (
               <Movie
-                key={e.id}
-                id={e.id}
-                year={e.year}
-                title={e.title}
-                summary={e.summary}
-                poster={e.medium_cover_image}
+                key={movie.id}
+                id={movie.id}
+                year={movie.year}
+                title={movie.title}
+                summary={movie.summary}
+                poster={movie.medium_cover_image}
+                genres={movie.genres}
               />
             ))}
           </div>
