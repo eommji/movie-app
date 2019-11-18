@@ -17,10 +17,6 @@ body {
   font-family: "Roboto", "Noto Sans KR", serif;
 }
 
-.main {
-  padding: 70px 50px;
-}
-
 .loader {
   display: flex;
   justify-content: center;
