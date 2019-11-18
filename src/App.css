@@ -1,0 +1,32 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR|Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+.main,
+#root {
+  height: 100%;
+}
+
+body {
+  background-color: #333;
+  font-family: "Roboto", "Noto Sans KR", serif;
+}
+
+.main {
+  padding: 70px 50px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  color: #666;
+}
